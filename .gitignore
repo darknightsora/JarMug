@@ -1,0 +1,49 @@
+# Local Python environments and caches
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+cache/
+
+# The separately managed Stable Audio engine checkout and temporary builds
+engines/
+
+# Generated audio and model artifacts
+output/
+*.wav
+*.flac
+*.mp3
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.gguf
+*.bin
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+**/huggingface/token
+**/huggingface/stored_tokens
+**/.huggingface/
+
+# Temporary files and local experiment
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+tmp/
+temp/
+test_musicgen.py
