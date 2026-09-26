@@ -28,6 +28,15 @@ python -m venv .venv-gui
 .\.venv-gui\Scripts\python.exe -m pip install -r requirements-gui.txt
 ```
 
+## Hardware Compatibility
+
+JarMug has been developed and tested on Windows with an NVIDIA GeForce RTX 3060 (12 GB VRAM).
+
+- Tested: RTX 3060 12 GB, CUDA 12.8, Windows.
+- Other NVIDIA GPUs: May work with compatible CUDA support and sufficient VRAM, but have not been tested.
+- AMD, Intel and CPU-only systems: Not currently tested or officially supported.
+- Maximum tested duration: 120 seconds using Stable Audio 3 Small-Music.
+
 ## Using the GUI
 
 Select Music, Instrument, or SFX, enter a prompt, choose 10, 30, 60, or 120

@@ -10,12 +10,20 @@ generation with elapsed time, uniquely named WAV output, pygame-ce playback
 with a position timeline, and a recent-generations browser. WAVs are written
 to `D:\JarMug\output`. Model files use `G:\JarMug\Models\Stable-Audio`.
 
+## Hardware Compatibility
+
+JarMug has been developed and tested on Windows with an NVIDIA GeForce RTX 3060 (12 GB VRAM).
+
+- Tested: RTX 3060 12 GB, CUDA 12.8, Windows.
+- Other NVIDIA GPUs: May work with compatible CUDA support and sufficient VRAM, but have not been tested.
+- AMD, Intel and CPU-only systems: Not currently tested or officially supported.
+- Maximum tested duration: 120 seconds using Stable Audio 3 Small-Music.
+
 ## Requirements
 
 - Windows with Python 3.11 or newer and a working audio output device.
 - Sufficient free RAM and disk space for the Stable Audio 3 Small models,
-  cached weights, and generated WAVs. The Small models support CPU inference;
-  generation can be slow without a suitable accelerator. A GPU is optional.
+  cached weights, and generated WAVs.
 - A separately installed Stable Audio 3 runtime at
   `D:\JarMug\engines\stable_audio\.venv\Scripts\stable-audio.exe` and the
   Small-Music and Small-SFX model files in the configured cache.
