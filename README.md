@@ -32,6 +32,32 @@ The engine checkout, virtual environments, model weights, credentials, and
 generated audio are local resources and are not stored in this repository.
 Installing this repository alone does not install the engine or model weights.
 
+## Models, access, and licenses
+
+JarMug's original source code is licensed under the [MIT License](LICENSE).
+This license does not cover third-party engines, model weights, or dependencies.
+The Stable Audio 3 inference engine and model
+weights are separate third-party components from Stability AI; neither is
+included in this repository. JarMug invokes the locally installed engine and
+uses the [Small-Music](https://huggingface.co/stabilityai/stable-audio-3-small-music)
+and [Small-SFX](https://huggingface.co/stabilityai/stable-audio-3-small-sfx)
+models. Their terms are governed by the
+[Stability AI Community License](https://stability.ai/community-license-agreement)
+and the conditions on each model page, including the
+[Gemma Terms of Use](https://ai.google.dev/gemma/terms) for a Gemma component.
+
+Each user must obtain their own access to both model repositories, accept the
+applicable conditions, and authenticate locally with their own Hugging Face
+account before generation. Keep credentials in a local credential store, never
+in this repository. JarMug does not distribute model weights or access tokens.
+The engine source is maintained separately at
+[Stability-AI/stable-audio-3](https://github.com/Stability-AI/stable-audio-3)
+under its [own MIT license](https://github.com/Stability-AI/stable-audio-3/blob/main/LICENSE).
+
+**Powered by Stability AI.** See [NOTICE.txt](NOTICE.txt) for third-party model
+attribution. A packaged application must also include the applicable license
+and notices for any third-party code or models it distributes.
+
 ## Setup and launch
 
 For the existing local setup, open PowerShell in `D:\JarMug`:

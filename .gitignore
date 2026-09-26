@@ -9,6 +9,11 @@ __pycache__/
 .ruff_cache/
 .cache/
 cache/
+hf_home/
+hf-cache/
+huggingface/
+models/
+model_cache/
 
 # The separately managed Stable Audio engine checkout and temporary builds
 engines/
@@ -25,10 +30,23 @@ output/
 *.onnx
 *.gguf
 *.bin
+*.h5
+*.model
 
 # Credentials and local configuration
 .env
 .env.*
+.envrc
+*.local.*
+secrets.*
+credentials.*
+auth.json
+token
+stored_tokens
+.netrc
+.pypirc
+pip.ini
+pip.conf
 *.pem
 *.key
 *.p12

@@ -37,6 +37,27 @@ JarMug has been developed and tested on Windows with an NVIDIA GeForce RTX 3060 
 - AMD, Intel and CPU-only systems: Not currently tested or officially supported.
 - Maximum tested duration: 120 seconds using Stable Audio 3 Small-Music.
 
+## Model access and licensing
+
+JarMug's GUI and CLI are application code; the Stable Audio 3 engine and model
+weights are separate third-party components. The app does not ship the weights
+or a Hugging Face token. Each user must obtain access to the
+[Small-Music](https://huggingface.co/stabilityai/stable-audio-3-small-music) and
+[Small-SFX](https://huggingface.co/stabilityai/stable-audio-3-small-sfx) model
+repositories, accept their conditions, and authenticate locally with their
+own Hugging Face account. The model pages refer to the
+[Stability AI Community License](https://stability.ai/community-license-agreement)
+and the [Gemma Terms of Use](https://ai.google.dev/gemma/terms) for a Gemma
+component. Keep credentials out of project files and Git.
+The engine subprocess uses the local `G:\JarMug\Models\Stable-Audio` cache.
+
+**Powered by Stability AI.** See [NOTICE.txt](NOTICE.txt) for model attribution
+and the [engine repository](https://github.com/Stability-AI/stable-audio-3)
+for its separately maintained inference code, which has its
+[own MIT license](https://github.com/Stability-AI/stable-audio-3/blob/main/LICENSE).
+JarMug's original source code has a separate [MIT License](LICENSE); it does
+not license the engine, models, or other dependencies.
+
 ## Using the GUI
 
 Select Music, Instrument, or SFX, enter a prompt, choose 10, 30, 60, or 120

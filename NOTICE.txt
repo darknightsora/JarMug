@@ -1,0 +1,14 @@
+Third-party model attribution
+
+This Stability AI Model is licensed under the Stability AI Community License, Copyright © Stability AI Ltd. All Rights Reserved
+
+Stability AI Community License Agreement:
+https://stability.ai/community-license-agreement
+
+Stable Audio 3 Small-Music:
+https://huggingface.co/stabilityai/stable-audio-3-small-music
+
+Stable Audio 3 Small-SFX:
+https://huggingface.co/stabilityai/stable-audio-3-small-sfx
+
+JarMug does not redistribute these model weights or the Stable Audio 3 engine.
