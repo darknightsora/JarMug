@@ -93,3 +93,22 @@ Run the non-generation checks without loading models:
 The playback timeline displays position and duration. Seeking is not offered
 for WAV files because the current pygame-ce playback path does not support it
 reliably.
+
+## Screenshots
+
+### Real Application Screenshot
+Captured from the running JarMug v0.1.1 Windows GUI.
+
+![Actual JarMug desktop GUI](assets/screenshots/gui-real.jpg)
+
+### UI Concepts
+The following images are design mockups, not screenshots of the current app.
+
+### Main Interface
+![JarMug main interface concept](assets/screenshots/gui-main.png)
+
+### Generating Audio
+![JarMug generating-audio concept](assets/screenshots/gui-generating.png)
+
+### Playback and Recent Generations
+![JarMug playback and recent-generations concept](assets/screenshots/gui-playback.png)
