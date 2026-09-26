@@ -10,6 +10,12 @@ generation with elapsed time, uniquely named WAV output, pygame-ce playback
 with a position timeline, and a recent-generations browser. WAVs are written
 to `D:\JarMug\output`. Model files use `G:\JarMug\Models\Stable-Audio`.
 
+## Real Application Screenshot
+
+Captured from the running JarMug v0.1.1 Windows GUI.
+
+![Actual JarMug desktop GUI](assets/screenshots/gui-real.jpg)
+
 ## Hardware Compatibility
 
 JarMug has been developed and tested on Windows with an NVIDIA GeForce RTX 3060 (12 GB VRAM).
@@ -94,14 +100,8 @@ The playback timeline displays position and duration. Seeking is not offered
 for WAV files because the current pygame-ce playback path does not support it
 reliably.
 
-## Screenshots
+## UI Concepts
 
-### Real Application Screenshot
-Captured from the running JarMug v0.1.1 Windows GUI.
-
-![Actual JarMug desktop GUI](assets/screenshots/gui-real.jpg)
-
-### UI Concepts
 The following images are design mockups, not screenshots of the current app.
 
 ### Main Interface
